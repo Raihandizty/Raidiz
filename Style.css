@@ -1,0 +1,51 @@
+/* style.css */
+
+:root {
+  --red: #ff4d6d;
+  --orange: #ffb347;
+  --yellow: #ffff66;
+  --green: #4caf50;
+  --blue: #2196f3;
+  --indigo: #3f51b5;
+  --violet: #9c27b0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(to right, var(--red), var(--orange), var(--yellow), var(--green), var(--blue), var(--indigo), var(--violet));
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 2em;
+  text-shadow: 1px 1px 4px #000;
+}
+
+nav {
+  background-color: #222;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: var(--yellow);
+  text-shadow: 0 0 5px var(--violet);
+}
+
+main {
+  padding: 30px;
+  text-align: center;
+}
