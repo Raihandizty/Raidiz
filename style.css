@@ -1,0 +1,92 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #e0e7ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: rgba(20, 30, 60, 0.85);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px #5c6bc0;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #b3c7ff;
+  margin-bottom: 12px;
+}
+
+nav a {
+  color: #a5b1ff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 25px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background: #4a5aff;
+  color: white;
+}
+
+nav a.active {
+  background: #7a8cff;
+  color: white;
+  font-weight: 700;
+}
+
+main {
+  flex: 1;
+  max-width: 900px;
+  margin: 30px auto;
+  background: rgba(20, 30, 60, 0.7);
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #283593;
+}
+
+main h2 {
+  color: #a5b1ff;
+  margin-bottom: 18px;
+}
+
+main p, main ul {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+main ul {
+  list-style: inside disc;
+  padding-left: 10px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0 0 20px #5c6bc0;
+}
+
+footer {
+  background: rgba(20, 30, 60, 0.85);
+  text-align: center;
+  padding: 15px 10px;
+  color: #8c9eff;
+  font-weight: 600;
+  box-shadow: 0 -4px 10px #283593;
+}
